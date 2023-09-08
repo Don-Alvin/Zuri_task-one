@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Zuri Frontend - Task 1</title>
+</head>
+<body>
+    <main class="card">
+        <section class="picture">
+            <img src="images/alvin.jpeg" alt="Don Alvin" data-testid="slackDisplayImage" />
+        </section>
+        <section class="details">
+            <div class="profile">
+                <h3 class="name" data-testid="slackUserName">Don Alvin</h3>
+                <p class="track" data-testid="myTrack">Frontend</p>
+            </div>
+            <div class="date">
+                <p class="day" id="day" data-testid="currentDayOfTheWeek"></p>
+                <p class="time" id="time" data-testid="currentUTCTime"></p>
+            </div>
+            <a href="https://github.com/Don-Alvin/Zuri_task-one" target="_blank" class="github" data-testid="githubURL">
+              <i class="fa fa-github"></i>
+              <span>Github link</span> 
+            </a>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
